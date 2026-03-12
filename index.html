@@ -1,0 +1,329 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MindTrack | Personal Sensing for Mental Health</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+
+    <!-- SIDE TOGGLE BUTTON -->
+    <button class="menu-toggle" onclick="toggleSidebar()">☰ Contents</button>
+
+    <!-- SIDE NAVIGATION -->
+    <aside class="side-nav" id="sideNav">
+        <div class="side-nav-header">
+            <h3>On this page</h3>
+            <button class="close-btn" onclick="toggleSidebar()">✕</button>
+        </div>
+
+        <a href="#team" onclick="toggleSidebar()">Team Members</a>
+        <a href="#home" onclick="toggleSidebar()">Introduction</a>
+        <a href="#problem" onclick="toggleSidebar()">Problem Statement</a>
+        <a href="#literature" onclick="toggleSidebar()">Literature Review</a>
+        <a href="#solution" onclick="toggleSidebar()">Proposed System</a>
+        <a href="#technology" onclick="toggleSidebar()">Emerging Technologies Used</a>
+        <a href="#design" onclick="toggleSidebar()">Design Principles Applied</a>
+        <a href="#storyboard" onclick="toggleSidebar()">Storyboard</a>
+        <a href="#prototype" onclick="toggleSidebar()">Prototype Screens</a>
+        <a href="#evaluation" onclick="toggleSidebar()">Evaluation Plan</a>
+        <a href="#ethical" onclick="toggleSidebar()">Ethical Considerations</a>
+        <a href="#conclusion" onclick="toggleSidebar()">Conclusion</a>
+        <a href="#demo" onclick="toggleSidebar()">Demo Video</a>
+    </aside>
+
+    <!-- OVERLAY -->
+    <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+    <header class="hero">
+    <h1>MindTrack</h1>
+    <p class="subtitle">
+        <span id="typewriter"></span><span class="cursor">|</span>
+    </p>
+</header>
+
+    <main class="container">
+        <!--team memberrs-->
+
+        <section id="team" class="card">
+            <h2>Team Members</h2>
+
+            <div class="team-grid">
+
+                <div class="team-member">
+                    <img src="pia.jpg" alt="Member 1">
+                    <h3>Atiqah Syaffia</h3>
+                    <h3>24007397</h3>
+                </div>
+
+                <div class="team-member">
+                    <img src="faa.jpeg" alt="Member 2">
+                    <h3>Nurfarahin Afifah</h3>
+                    <h3>24008638</h3>
+                </div>
+
+                <div class="team-member">
+                    <img src="pian.jpg" alt="Member 3">
+                    <h3>Alfian</h3>
+                    <h3>22011495</h3>
+                </div>
+
+                <div class="team-member">
+                    <img src="jim.jpg" alt="Member 4">
+                    <h3>Syed Muhammad</h3>
+                    <h3>22011248</h3>
+                </div>
+
+            </div>
+        </section> 
+        <!--end-->
+
+        <section id="home" class="card">
+            <h2>Introduction</h2>
+            <p>
+                MindTrack is a mobile application designed to support mental health and wellbeing monitoring among university students. The application combines personal sensing data from smartphones with user self-reflection features to analyze behavioral patterns and emotional wellbeing. Users can record their daily mood, write journal entries, upload photos, and log daily activities through simple morning and evening check-ins.
+            </p>
+            <p>
+                In addition, MindTrack allows users to set personal wellbeing goals such as improving sleep, reducing stress, building healthy habits, or supporting personal growth. The application presents wellbeing insights through a simple and user-friendly interface, including mood calendars, activity logs, and statistical reports.
+            </p>
+            <p>
+                MindTrack also integrates AI-assisted analysis to summarize users’ daily wellbeing and identify potential stress patterns. The system includes a burnout tracking feature that monitors behavioral changes and emotional patterns to detect early signs of burnout. When potential risks are detected, the application provides personalized recommendations and allows users to connect with professional counselors through an integrated online counseling feature.
+            </p>
+        </section>
+
+        <section id="problem" class="card">
+            <h2>Problem Statement</h2>
+            <p>
+                Mental health issues such as stress, anxiety, and burnout are increasingly common among university students and young professionals. Academic pressure, social expectations, and lifestyle changes often contribute to emotional stress and fatigue. However, many individuals fail to recognize early warning signs of mental health decline because monitoring typically depends on occasional self-reflection or professional consultation.
+            </p>
+            <p>
+                Existing mental health applications often focus only on mood logging or meditation activities and do not provide a comprehensive system that integrates behavioral monitoring, emotional reflection, and goal-based wellbeing tracking. In addition, some applications require complex interactions that may discourage consistent use.
+            </p>
+            <p>
+                Therefore, there is a need for a user-friendly personal wellbeing monitoring system that combines behavioral insights, mood tracking, and reflective journaling while providing meaningful feedback and support to help users manage stress and prevent burnout.
+            </p>
+        </section>
+
+        <section id="literature" class="card">
+            <h2>Literature Review</h2>
+            <p>
+                Previous studies show that personal sensing technologies can effectively monitor behavioral signals related to mental health. Smartphones are capable of collecting behavioral data such as screen time, sleep patterns, activity levels, and phone usage habits through built-in sensors and system analytics. These behavioral indicators can provide insights into users’ wellbeing and daily lifestyle patterns.
+            </p>
+
+            <p>
+                Research in Human Computer Interaction also highlights the importance of usability and emotional design when developing mental health applications. Interfaces must be simple, supportive, and non-intrusive in order to encourage continuous engagement and build user trust. In addition, reflective tools such as mood tracking and digital journaling have been shown to help users become more aware of their emotional states and behavioral habits.
+            </p>
+        </section>
+
+        <section id="solution" class="card">
+            <h2>Proposed System</h2>
+            <p>
+                MindTrack is designed as a mobile application that integrates personal sensing technology, mood tracking, and reflective journaling to support mental wellbeing monitoring. The system allows users to perform daily check-ins where they record their mood, log daily activities, write journal reflections, and optionally upload photos to capture important moments of their day.
+            </p>
+            <p>
+                The application also enables users to set personal wellbeing goals such as improving sleep, building healthy habits, reducing stress, or supporting personal growth. MindTrack organizes these records through an interactive calendar and statistical dashboard, allowing users to visualize mood trends, activity patterns, and overall wellbeing progress.
+            </p>
+            <p>
+                To enhance user support, MindTrack uses AI-assisted analysis to generate daily summaries and identify behavioral patterns that may indicate increased stress or potential burnout. Weekly reports provide insights into mood trends, activity correlations, and goal progress. When signs of burnout or excessive stress are detected, the system provides early alerts and personalized recommendations such as relaxation techniques or connecting with professional counselors through the integrated online counseling feature.
+            </p>
+        </section>
+
+        <section id="technology" class="card">
+            <h2>Emerging Technologies Used</h2>
+            <p>The proposed system integrates several emerging technologies to support mental health monitoring:</p>
+            <div class="grid">
+                <div class="feature-box">
+                    <h3>Personal Sensing</h3>
+                    <p>Smartphone sensors and usage analytics track behavioral indicators such as activity levels, screen time, and sleep patterns.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>AI-Based Pattern Detection</h3>
+                    <p>Artificial intelligence techniques analyze mood entries, behavioral data, and journaling patterns to identify potential stress trends and burnout risks.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Data Analytics</h3>
+                    <p>User data is processed to generate insights such as mood trends, activity correlations, and weekly wellbeing reports.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Cloud Processing</h3>
+                    <p>User data is securely stored and processed in cloud infrastructure to enable real-time insights and cross-device accessibility.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="design" class="card">
+            <h2>Design Principles Applied</h2>
+            <p>The design of MindTrack follows several Human Computer Interaction principles to ensure usability and positive user experience.</p>
+            <div class="grid">
+                <div class="feature-box">
+                    <h3>Simplicity</h3>
+                    <p>A minimalistic and intuitive interface reduces cognitive load and allows users to quickly record their mood, activities, and reflections.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Consistency</h3>
+                    <p>Interface elements maintain consistent layout, icons, and navigation patterns across the application to help users interact with the system easily.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Visibility</h3>
+                    <p>Important information such as mood trends, burnout risk levels, and wellbeing insights are clearly displayed through dashboards, calendars, and weekly reports.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Feedback</h3>
+                    <p>The system provides clear responses through notifications, reminders, and AI-generated summaries that inform users about their wellbeing status.</p>
+                </div>
+                <div class="feature-box center-card">
+                    <h3>User Control</h3>
+                    <p>Users can manage their privacy settings, control sensor permissions, and decide whether to share their data with professional counselors.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="storyboard" class="card">
+            <h2>Storyboard</h2>
+
+            <p>
+                The storyboard illustrates how users interact with the MindTrack application during their daily routine.
+            </p>
+
+            <p>
+                <strong>1.</strong> The user opens the MindTrack application in the morning.
+            </p>
+
+            <p>
+                <strong>2.</strong> The system prompts the user to log their mood and daily goals.
+            </p>
+
+            <p>
+                <strong>3.</strong> Throughout the day, the system monitors behavioral patterns such as phone usage and activity levels.
+            </p>
+
+            <p>
+                <strong>4.</strong> If stress patterns are detected, the system sends a notification suggesting relaxation activities.
+            </p>
+
+            <p>
+                <strong>5.</strong> At night, the user records reflections through journaling and reviews their daily wellbeing summary.
+            </p>
+
+        </section>
+
+        <!-- proto screens -->
+        <section id="prototype" class="card">
+            <h2>Prototype Screens</h2>
+
+            <p>
+                The prototype demonstrates the main interafce of MindTrack.
+                Scroll horizontally to view the complete user journey.
+            </p>
+
+            <div class="prototype-scroll">
+
+                <img src="welcome.png" alt="Welcome Screen">
+                <img src="Login.png" alt="Login Screen">
+                <img src="signup.png" alt="Signup Screen">
+                <img src="home.png" alt="HomePage">
+                <img src="dm.png" alt="Daily Mood CheckIn">
+                <img src="burnout.png" alt="Burnout Detection">
+                <img src="article.png" alt="Articles">
+                <img src="ai1.png" alt="AI Chatbot">
+                <img src="ai2.png" alt="AI Chatbot 2">
+                <img src="mi.png" alt="Mood Insights">
+                <img src="pfp.png" alt="Profile Page">
+
+            </div>
+
+        </section>
+
+        <section id="evaluation" class="card">
+            <h2>Evaluation Plan</h2>
+
+            <div class="evaluation-grid">
+
+                <!-- Usability Testing -->
+                <div class="evaluation-box">
+                    <h3>Usability Testing</h3>
+
+                    <p>
+                        To evaluate the usability of the system, testing will be conducted with
+                        5–10 participants who are university students.
+                    </p>
+
+                    <ul>
+                        <li>Task 1: Log daily mood</li>
+                        <li>Task 2: Write a journal entry</li>
+                        <li>Task 3: Review the wellbeing dashboard</li>
+                        <li>Task 4: View weekly reports</li>
+                    </ul>
+
+                    <p>
+                        Metrics such as task completion time, user satisfaction, and error frequency
+                        will be collected to measure system usability.
+                    </p>
+                </div>
+
+                <!-- Human Capabilities -->
+                <div class="evaluation-box">
+                    <h3>Human Capabilities Consideration</h3>
+
+                    <ul>
+                        <li><strong>Cognitive:</strong> Simple navigation reduces mental workload.</li>
+                        <li><strong>Physical:</strong> Interface elements are large and touch-friendly.</li>
+                        <li><strong>Emotional:</strong> The system uses supportive language to encourage reflection.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="ethical" class="card">
+            <h2>Ethical Considerations</h2>
+
+            <ul class="ethical-list">
+                <li>User data is encrypted and securely stored.</li>
+                <li>Users must provide consent before data collection.</li>
+                <li>Users can control privacy settings and disable sensors.</li>
+                <li>The system does not share personal data with third parties.</li>
+                <li>Users can permanently delete their account.</li>
+            </ul>
+
+        </section>
+
+        <section id="conclusion" class="card">
+            <h2>Conclusion</h2>
+            <p>
+                MindTrack demonstrates how personal sensing technology and user-centered design can support mental health monitoring.
+            </p>
+            <p>
+                By combining mood tracking, journaling, behavioral analysis, and wellbeing insights, the system encourages users to become more aware of their emotional patterns and manage stress more effectively.
+            </p>
+        </section>
+
+        <section id="demo" class="card">
+            <h2>Demo Video</h2>
+            <p>
+                A demo video will be included to present the prototype flow, key features, and user interaction process of MindTrack.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        TFB2033 Human and Computer Interaction – Group Project
+    </footer>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sideNav").classList.toggle("active");
+            document.getElementById("overlay").classList.toggle("active");
+        }
+    </script>
+
+    <button id="backToTop">⬆</button>
+
+</body>
+</html>
