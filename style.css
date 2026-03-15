@@ -260,6 +260,15 @@ footer {
     font-size: 14px;
 }
 
+/* video */
+.demo-video {
+    width: 80%;
+    max-width: 900px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .menu-toggle {
