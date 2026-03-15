@@ -202,6 +202,30 @@ body {
     justify-items: center;
 }
 
+.design-grid {
+    grid-template-columns: 1fr;
+    max-width: 900px;
+    margin: 24px auto 0;
+}
+
+    .design-grid .feature-box {
+        width: 100%;
+        text-align: left;
+        padding: 34px 36px;
+    }
+
+        .design-grid .feature-box h3 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 18px;
+        }
+
+        .design-grid .feature-box p {
+            font-size: 17px;
+            line-height: 1.9;
+            margin-bottom: 16px;
+        }
+
 .feature-box {
     background: linear-gradient(135deg, #f9fbff 0%, #f4f8f9 50%, #faf7ff 100%);
     border: 1px solid #e5eaf3;
